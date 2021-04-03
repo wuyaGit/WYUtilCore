@@ -35,7 +35,7 @@ TODO: 基础公用工具库，单独模块。
 
 
   spec.author		= { "wuyagit" => "407671883@qq.com" }
-  spec.source		= { :git => 'https://github.com/wuyaGit/WYUtilCore.git', :tag => s.version.to_s }
+  spec.source		= { :git => 'https://github.com/wuyaGit/WYUtilCore.git', :tag => spec.version.to_s }
 
   # spec.social_media_url   = "https://twitter.com/macbook pro"
 
@@ -52,20 +52,21 @@ TODO: 基础公用工具库，单独模块。
 
   #spec.dependency 'ModelProtocol', '~> 0.0.1'
   #spec.dependency 'EmptyDataView', '~> 0.0.1'
-  spec.dependency 'RxSwift'  #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+
+  spec.dependency 'Kingfisher'
+  spec.dependency 'SnapKit'
+
+  spec.dependency 'RxSwift'
   spec.dependency 'RxCocoa'
+
   spec.dependency 'CryptoSwift'
   spec.dependency 'SwiftyUserDefaults'
-  #动画显示
-  spec.dependency 'NVActivityIndicatorView'
-  #autolayout的封装
-  spec.dependency 'SnapKit'
-  #toast提示框
+  
+  spec.dependency 'NVActivityIndicatorView'	#动画显示
   spec.dependency 'Toast-Swift'
-  spec.dependency 'MJRefresh'
-  spec.dependency 'Kingfisher'
+  #spec.dependency 'MJRefresh'
   spec.dependency 'MBProgressHUD'
   spec.dependency 'URLNavigator'
-  spec.dependency 'WebViewJavascriptBridge'
+  #spec.dependency 'WebViewJavascriptBridge'
 
 end
