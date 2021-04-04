@@ -14,6 +14,8 @@
 		042D684F2618A68100BBB5B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042D684E2618A68100BBB5B8 /* Assets.xcassets */; };
 		042D68522618A68100BBB5B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042D68502618A68100BBB5B8 /* LaunchScreen.storyboard */; };
 		042D685D2618A68200BBB5B8 /* WYUtilCore_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042D685C2618A68200BBB5B8 /* WYUtilCore_ExampleTests.swift */; };
+		A7B4E553679E8553731FC2B0 /* Pods_WYUtilCore_ExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C3D2A9FF5F318FF1D09EC /* Pods_WYUtilCore_ExampleTests.framework */; };
+		FBBBE9C983E7FCCE0B88D728 /* Pods_WYUtilCore_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A4F51D5C1073CDF5F71932F /* Pods_WYUtilCore_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,12 @@
 		042D68582618A68200BBB5B8 /* WYUtilCore_ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYUtilCore_ExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		042D685C2618A68200BBB5B8 /* WYUtilCore_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WYUtilCore_ExampleTests.swift; sourceTree = "<group>"; };
 		042D685E2618A68200BBB5B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A4F51D5C1073CDF5F71932F /* Pods_WYUtilCore_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYUtilCore_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53A46200E89FF4797A1E29E5 /* Pods-WYUtilCore_ExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYUtilCore_ExampleTests.release.xcconfig"; path = "Target Support Files/Pods-WYUtilCore_ExampleTests/Pods-WYUtilCore_ExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		695989CD7200C556119B452C /* Pods-WYUtilCore_ExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYUtilCore_ExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-WYUtilCore_ExampleTests/Pods-WYUtilCore_ExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DAB3271A92448A19F12A111 /* Pods-WYUtilCore_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYUtilCore_Example.debug.xcconfig"; path = "Target Support Files/Pods-WYUtilCore_Example/Pods-WYUtilCore_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC2C3D2A9FF5F318FF1D09EC /* Pods_WYUtilCore_ExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WYUtilCore_ExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF03C37F6B9D34F179CE6B9 /* Pods-WYUtilCore_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WYUtilCore_Example.release.xcconfig"; path = "Target Support Files/Pods-WYUtilCore_Example/Pods-WYUtilCore_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBBBE9C983E7FCCE0B88D728 /* Pods_WYUtilCore_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7B4E553679E8553731FC2B0 /* Pods_WYUtilCore_ExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +74,8 @@
 				042D68442618A67F00BBB5B8 /* WYUtilCore_Example */,
 				042D685B2618A68200BBB5B8 /* WYUtilCore_ExampleTests */,
 				042D68432618A67F00BBB5B8 /* Products */,
+				0B731F97B886A81597493A49 /* Pods */,
+				B8834DEBD88B3C296DF3F624 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +111,27 @@
 			path = WYUtilCore_ExampleTests;
 			sourceTree = "<group>";
 		};
+		0B731F97B886A81597493A49 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB3271A92448A19F12A111 /* Pods-WYUtilCore_Example.debug.xcconfig */,
+				EDF03C37F6B9D34F179CE6B9 /* Pods-WYUtilCore_Example.release.xcconfig */,
+				695989CD7200C556119B452C /* Pods-WYUtilCore_ExampleTests.debug.xcconfig */,
+				53A46200E89FF4797A1E29E5 /* Pods-WYUtilCore_ExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B8834DEBD88B3C296DF3F624 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A4F51D5C1073CDF5F71932F /* Pods_WYUtilCore_Example.framework */,
+				BC2C3D2A9FF5F318FF1D09EC /* Pods_WYUtilCore_ExampleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042D686C2618A68200BBB5B8 /* Build configuration list for PBXNativeTarget "WYUtilCore_Example" */;
 			buildPhases = (
+				ABFCA415CA9B274FDBA8C98E /* [CP] Check Pods Manifest.lock */,
 				042D683E2618A67F00BBB5B8 /* Sources */,
 				042D683F2618A67F00BBB5B8 /* Frameworks */,
 				042D68402618A67F00BBB5B8 /* Resources */,
+				E5B1B256FF1D0E3558B8856E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042D686F2618A68200BBB5B8 /* Build configuration list for PBXNativeTarget "WYUtilCore_ExampleTests" */;
 			buildPhases = (
+				BEC84D1AD270B8A0FC2B2403 /* [CP] Check Pods Manifest.lock */,
 				042D68542618A68200BBB5B8 /* Sources */,
 				042D68552618A68200BBB5B8 /* Frameworks */,
 				042D68562618A68200BBB5B8 /* Resources */,
@@ -193,6 +229,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABFCA415CA9B274FDBA8C98E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYUtilCore_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC84D1AD270B8A0FC2B2403 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WYUtilCore_ExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5B1B256FF1D0E3558B8856E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYUtilCore_Example/Pods-WYUtilCore_Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WYUtilCore_Example/Pods-WYUtilCore_Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WYUtilCore_Example/Pods-WYUtilCore_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		042D683E2618A67F00BBB5B8 /* Sources */ = {
@@ -361,6 +461,7 @@
 		};
 		042D686D2618A68200BBB5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DAB3271A92448A19F12A111 /* Pods-WYUtilCore_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -379,6 +480,7 @@
 		};
 		042D686E2618A68200BBB5B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDF03C37F6B9D34F179CE6B9 /* Pods-WYUtilCore_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -397,6 +499,7 @@
 		};
 		042D68702618A68200BBB5B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695989CD7200C556119B452C /* Pods-WYUtilCore_ExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +521,7 @@
 		};
 		042D68712618A68200BBB5B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A46200E89FF4797A1E29E5 /* Pods-WYUtilCore_ExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

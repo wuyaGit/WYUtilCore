@@ -31,7 +31,7 @@ TODO: 基础公用工具库，单独模块。
   spec.homepage     = "https://github.com/wuyaGit/WYUtilCore"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
   
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   spec.author		= { "wuyagit" => "407671883@qq.com" }
@@ -41,11 +41,11 @@ TODO: 基础公用工具库，单独模块。
 
   spec.ios.deployment_target = "10.0"
 
-  spec.source_files  = "WYUtilCore/**/*.{h,m}"
+  spec.source_files  = "WYUtilCore/Classes/**/*.{h,swift}"
 
-  #s.resource_bundles = {
-  #    'WYUtilCore' => ['WYUtilCore/**/*.{xcassets,storyboard}']
-  #}
+  spec.resource_bundles = {
+      'WYUtilCore' => ['WYUtilCore/Assets/**/*.{xcassets,storyboard}']
+  }
 
 
   spec.frameworks = "UIKit"
@@ -56,17 +56,17 @@ TODO: 基础公用工具库，单独模块。
   spec.dependency 'Kingfisher'
   spec.dependency 'SnapKit'
 
-  spec.dependency 'RxSwift'
-  spec.dependency 'RxCocoa'
+  #spec.dependency 'RxSwift'
+  #spec.dependency 'RxCocoa'
 
   spec.dependency 'CryptoSwift'
-  spec.dependency 'SwiftyUserDefaults'
+  #spec.dependency 'SwiftyUserDefaults'
   
   spec.dependency 'NVActivityIndicatorView'	#动画显示
   spec.dependency 'Toast-Swift'
   #spec.dependency 'MJRefresh'
-  spec.dependency 'MBProgressHUD'
-  spec.dependency 'URLNavigator'
+  #spec.dependency 'MBProgressHUD'
+  #spec.dependency 'URLNavigator'
   #spec.dependency 'WebViewJavascriptBridge'
 
 end
