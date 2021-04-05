@@ -41,10 +41,10 @@ TODO: 基础公用工具库，单独模块。
 
   spec.ios.deployment_target = "10.0"
 
-  spec.source_files  = "WYUtilCore/Classes/**/*.{h,swift}"
+  spec.source_files  = "WYUtilCore/**/*.{h,swift}"
 
   spec.resource_bundles = {
-      'WYUtilCore' => ['WYUtilCore/Assets/**/*.{xcassets,storyboard}']
+      'WYUtilCore' => ['WYUtilCore/**/*.{xcassets,storyboard}']
   }
 
 
